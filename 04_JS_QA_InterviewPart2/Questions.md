@@ -28,4 +28,6 @@ _____________Arrays _______________
     let newarr = [...arr]
 
 
-13) 
+13) write a js function to get the first element of an array. passing a parameter 'n' will return the first 'n' elements of the array.
+
+14) 

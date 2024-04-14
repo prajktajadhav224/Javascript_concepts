@@ -5,6 +5,8 @@
 let arr =[1,2,3,4,5,6];
 let sum = 0;
 
+
+// arr.map((ele) => sum += ele)
 arr.forEach(function(ele){
     sum += ele;
 })
