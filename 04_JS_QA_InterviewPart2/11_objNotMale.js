@@ -12,8 +12,27 @@ let arrr = [
 ]
 
 // way 1
-let newArr = arrr.filter(function(ele) {
-    return ele.gender === "male";
-})
+// let newArr = arrr.filter(function(ele) {
+//     return ele.gender === "male";
+// })
 
-console.log(newArr);
+// console.log(newArr);
+
+
+
+var count = 0;
+arrr.forEach((ele)=>{
+    if(ele.gender !== 'male')
+    count++;
+});
+
+for (var i = 1; i <= count; i++) {
+    for (let j = 0; j < arrr.length; j++) {
+        if (arrr[j].gender !== 'male') {
+            arrr.splice(j, 1);
+            break; // Exit the loop after removing one element
+        }
+    }
+}
+
+console.log(arrr);

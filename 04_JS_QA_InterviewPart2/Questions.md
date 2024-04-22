@@ -30,4 +30,11 @@ _____________Arrays _______________
 
 13) write a js function to get the first element of an array. passing a parameter 'n' will return the first 'n' elements of the array.
 
-14) 
+14) write a js function to get the Last element of an array. passing a parameter 'n' will return the first 'n' elements of the array.
+
+15) find most frequent item of an array 
+
+16) shuffle an array
+
+17) Compute the union of two arrays
+
